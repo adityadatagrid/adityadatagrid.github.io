@@ -92,10 +92,10 @@ body {
 }
 
 .bg-loading-icon {
-    width: 60px;
-    height: 60px;
-    border: 8px solid #cccccc;
-    border-top: 8px solid #666666;
+    width: 50px;
+    height: 50px;
+    border: 6px solid #cccccc;
+    border-top: 6px solid #666666;
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
@@ -153,21 +153,13 @@ body {
 }
 
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 380px) {
     .bg-navbar {
-        height: 72px;
-    }
-
-    .bg-navbar-logo {
-        margin: 5px 0 0 0;
+        height: 86px;
     }
 
     .bg-navbar-logo img {
         height: 26px;
-    }
-
-    .bg-navbar-nav {
-        margin: 5px 0;
     }
 
     .bg-nav-link-home,
@@ -179,9 +171,9 @@ body {
 }
 
 
-@media only screen and (max-width: 368px) {
+@media only screen and (max-width: 340px) {
     .bg-navbar {
-        height: 70px;
+        height: 84px;
     }
 
     .bg-navbar-logo img {
@@ -197,21 +189,21 @@ body {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 300px) {
     .bg-navbar {
-        height: 50px;
+        height: 66px;
     }
 
     .bg-navbar-logo {
-        margin: 0;
+        margin: 5px 0 0 0;
     }
 
     .bg-navbar-logo img {
-        height: 20px;
+        height: 22px;
     }
 
     .bg-navbar-nav {
-        margin: 0;
+        margin: 5px 0;
     }
 
     .bg-nav-link-home,
@@ -222,15 +214,13 @@ body {
     }
 }
 
-
-@media only screen and (max-width: 268px) {
+@media only screen and (max-width: 260px) {
     .bg-navbar {
-        height: 46px;
-        padding: 5px 0;
+        height: 64px;
     }
 
     .bg-navbar-logo img {
-        height: 18px;
+        height: 20px;
     }
 
     .bg-nav-link-home,
@@ -238,19 +228,6 @@ body {
     .bg-nav-link-contact,
     .bg-nav-link-gallery {
         font-size: 8px;
-    }
-}
-
-@media only screen and (max-width: 228px) {
-    .bg-navbar-logo img {
-        height: 16px;
-    }
-
-    .bg-nav-link-home,
-    .bg-nav-link-about,
-    .bg-nav-link-contact,
-    .bg-nav-link-gallery {
-        font-size: 6px;
     }
 }
 
